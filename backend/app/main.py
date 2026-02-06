@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-from app.routes import auth, users, admin, lessons, schemes, ai, confidence, nudges, expenses, document_scanner, whatsapp
+from app.routes import auth, users, admin, lessons, schemes, ai, confidence, nudges, expenses, document_scanner, whatsapp, money_manager
 
 app = FastAPI(title="FinLit API", description="Financial Literacy & Empowerment Platform API", version="1.0.0")
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,http://10.110.80.128:3000").split(",")
@@ -41,3 +41,4 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+app.include_router(money_manager.router, prefix="/api/money-manager", tags=["Money Manager"])

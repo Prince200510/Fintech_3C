@@ -10,7 +10,7 @@ import api from '../services/api';
 import { 
   FaCoins, FaTrophy, FaUniversity, FaLightbulb, FaGraduationCap, 
   FaChartLine, FaUser, FaBook, FaRocket, FaStar, FaFire,
-  FaMedal, FaArrowRight, FaCheckCircle, FaCalendar, FaClock, FaPen, FaFileImage
+  FaMedal, FaArrowRight, FaCheckCircle, FaCalendar, FaClock, FaPen, FaFileImage, FaWallet
 } from 'react-icons/fa';
 
 const UserDashboard = () => {
@@ -304,6 +304,25 @@ const UserDashboard = () => {
                 </p>
                 <div className="flex items-center justify-center gap-2 text-cyan-600 dark:text-cyan-400 font-semibold text-sm">
                   <span>{currentLanguage === 'english' ? 'Scan Now' : 'अभी स्कैन करें'}</span>
+                  <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/user/money-manager" className="group relative overflow-hidden bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-900/20 dark:to-green-900/20 rounded-3xl shadow-lg hover:shadow-2xl transition-all p-6 border-2 border-emerald-200 dark:border-emerald-700 hover:scale-105">
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/0 to-emerald-400/0 group-hover:from-emerald-400/10 group-hover:to-green-400/10 transition-all"></div>
+              <div className="relative">
+                <div className="w-16 h-16 bg-gradient-to-br from-emerald-400 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg group-hover:rotate-6 transition-transform">
+                  <FaWallet className="text-3xl text-white" />
+                </div>
+                <h3 className="text-center text-lg font-bold text-gray-800 dark:text-white mb-2">
+                  {currentLanguage === 'english' ? 'Money Manager' : 'मनी मैनेजर'}
+                </h3>
+                <p className="text-center text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  {currentLanguage === 'english' ? 'Smart budget planning' : 'स्मार्ट बजट योजना'}
+                </p>
+                <div className="flex items-center justify-center gap-2 text-emerald-600 dark:text-emerald-400 font-semibold text-sm">
+                  <span>{currentLanguage === 'english' ? 'Plan Now' : 'अभी योजना बनाएं'}</span>
                   <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>

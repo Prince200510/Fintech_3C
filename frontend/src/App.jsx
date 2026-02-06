@@ -25,6 +25,7 @@ import AIAdvisor from './pages/AIAdvisor';
 import Profile from './pages/Profile';
 import ExpenseTracker from './pages/ExpenseTracker';
 import DocumentScanner from './pages/DocumentScanner';
+import MoneyManager from './pages/MoneyManager';
 
 // Admin Pages
 import ManageUsers from './pages/admin/ManageUsers';
@@ -98,6 +99,14 @@ function App() {
                 element={
                   <ProtectedRoute allowedRoles={['USER']}>
                     <DocumentScanner />
+                  </ProtectedRoute>
+                }
+                />
+              <Route
+                path="/user/money-manager"
+                element={
+                  <ProtectedRoute allowedRoles={['USER']}>
+                    <MoneyManager />
                   </ProtectedRoute>
                 }
               />

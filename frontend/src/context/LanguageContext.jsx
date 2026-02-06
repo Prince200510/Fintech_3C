@@ -23,6 +23,7 @@ export const LanguageProvider = ({ children }) => {
   }, []);
 
   const strings = currentLanguage === 'english' ? STRINGS_ENGLISH : STRINGS_HINDI;
+  const languageCode = currentLanguage === 'english' ? 'en' : 'hi';
   const toggleLanguage = () => {
     const newLanguage = currentLanguage === 'english' ? 'hindi' : 'english';
     setCurrentLanguage(newLanguage);
@@ -36,7 +37,7 @@ export const LanguageProvider = ({ children }) => {
     }
   };
   
-  const value = { currentLanguage, strings, toggleLanguage, setLanguage, isEnglish: currentLanguage === 'english', isHindi: currentLanguage === 'hindi', };
+  const value = { currentLanguage, strings, toggleLanguage, setLanguage, isEnglish: currentLanguage === 'english', isHindi: currentLanguage === 'hindi', languageCode };
   
   return (
     <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>

@@ -1,45 +1,45 @@
 /**
  * Hindi Language Strings
- * सभी UI टेक्स्ट हिंदी में
- * ग्रामीण उपयोगकर्ताओं के लिए सरल भाषा
+ * All UI text in Hindi for the platform
+ * Simple, clear language suitable for first-time users
  */
 
 const STRINGS_HINDI = {
-  // Common - सामान्य
+  // Common
   appName: "फिनलिट",
-  appTagline: "आपका वित्तीय साथी",
+  appTagline: "आपका वित्तीय मित्र",
   loading: "लोड हो रहा है...",
   error: "त्रुटि",
-  success: "सफल",
+  success: "सफलता",
   submit: "जमा करें",
   cancel: "रद्द करें",
   save: "सहेजें",
   delete: "हटाएं",
-  edit: "बदलें",
-  back: "पीछे",
+  edit: "संपादित करें",
+  back: "वापस",
   next: "आगे",
-  yes: "हां",
+  yes: "हाँ",
   no: "नहीं",
   search: "खोजें",
-  filter: "फिल्टर",
+  filter: "फ़िल्टर",
   
-  // Authentication - प्रमाणीकरण
-  login: "लॉगिन करें",
-  signup: "नया खाता बनाएं",
+  // Authentication
+  login: "लॉगिन",
+  signup: "साइन अप",
   logout: "लॉगआउट",
   email: "ईमेल या फोन",
   password: "पासवर्ड",
-  confirmPassword: "पासवर्ड फिर से डालें",
+  confirmPassword: "पासवर्ड की पुष्टि करें",
   fullName: "पूरा नाम",
-  village: "गांव का नाम",
+  village: "गाँव का नाम",
   forgotPassword: "पासवर्ड भूल गए?",
   dontHaveAccount: "खाता नहीं है?",
   alreadyHaveAccount: "पहले से खाता है?",
   loginSuccess: "लॉगिन सफल!",
   signupSuccess: "खाता बन गया!",
-  loginError: "लॉगिन नहीं हुआ। जानकारी जांचें।",
+  loginError: "लॉगिन विफल। विवरण जांचें।",
   
-  // Navigation - नेविगेशन
+  // Navigation
   home: "होम",
   dashboard: "डैशबोर्ड",
   learn: "सीखें",
@@ -47,50 +47,50 @@ const STRINGS_HINDI = {
   aiAdvisor: "AI से पूछें",
   documentScanner: "दस्तावेज़ स्कैनर",
   profile: "प्रोफाइल",
-  settings: "सेटिंग",
+  settings: "सेटिंग्स",
   
-  // User Dashboard - उपयोगकर्ता डैशबोर्ड
-  welcomeBack: "फिर से स्वागत है",
+  // User Dashboard
+  welcomeBack: "स्वागत है",
   yourProgress: "आपकी प्रगति",
-  lessonsCompleted: "पाठ पूरे किए",
-  coinsEarned: "सिक्के कमाए",
+  lessonsCompleted: "पूरे किए गए पाठ",
+  coinsEarned: "अर्जित सिक्के",
   badges: "बैज",
-  continueJourney: "सीखना जारी रखें",
+  continueJourney: "अपनी यात्रा जारी रखें",
   startLearning: "सीखना शुरू करें",
-  yourMentor: "आपके गुरु",
-  noMentor: "अभी कोई गुरु नहीं",
+  yourMentor: "आपके मेंटर",
+  noMentor: "अभी कोई मेंटर नहीं",
   recentActivity: "हाल की गतिविधि",
   
-  // Admin Dashboard - एडमिन डैशबोर्ड
+  // Admin Dashboard
   adminPanel: "एडमिन पैनल",
   totalUsers: "कुल उपयोगकर्ता",
   activeUsers: "इस महीने सक्रिय",
   completionRate: "औसत प्रगति",
   manageUsers: "उपयोगकर्ता प्रबंधन",
-  manageMentors: "गुरु प्रबंधन",
+  manageMentors: "मेंटर प्रबंधन",
   manageSchemes: "योजना प्रबंधन",
   manageContent: "सामग्री प्रबंधन",
   analytics: "विश्लेषण",
   userList: "उपयोगकर्ता सूची",
-  assignMentor: "गुरु नियुक्त करें",
+  assignMentor: "मेंटर असाइन करें",
   viewDetails: "विवरण देखें",
   
-  // Learning Module - सीखने का मॉड्यूल
+  // Learning Module
   financialLessons: "वित्तीय पाठ",
-  lessonCategories: "श्रेणियां",
+  lessonCategories: "श्रेणियाँ",
   savings: "बचत",
   budgeting: "बजट बनाना",
   business: "छोटा व्यवसाय",
-  banking: "बैंकिंग की मूल बातें",
+  banking: "बैंकिंग बेसिक्स",
   insurance: "बीमा",
   investments: "निवेश",
   startLesson: "पाठ शुरू करें",
-  resumeLesson: "फिर से शुरू करें",
+  resumeLesson: "पाठ जारी रखें",
   lessonComplete: "पाठ पूरा हुआ!",
   earnedCoins: "आपने कमाए",
   coins: "सिक्के!",
   
-  // Government Schemes - सरकारी योजनाएं
+  // Government Schemes
   browseSchemes: "योजनाएं देखें",
   eligibleSchemes: "आपके लिए योजनाएं",
   allSchemes: "सभी योजनाएं",
@@ -98,20 +98,20 @@ const STRINGS_HINDI = {
   eligibility: "कौन आवेदन कर सकता है",
   benefits: "लाभ",
   howToApply: "आवेदन कैसे करें",
-  documents: "जरूरी दस्तावेज",
+  documents: "आवश्यक दस्तावेज़",
   applyNow: "अभी आवेदन करें",
   officialWebsite: "आधिकारिक वेबसाइट",
   
-  // AI Advisor - AI सलाहकार
-  askQuestion: "अपना सवाल पूछें",
+  // AI Advisor
+  askQuestion: "अपना प्रश्न पूछें",
   aiAssistant: "AI वित्तीय सहायक",
-  exampleQuestions: "उदाहरण सवाल",
-  questionPlaceholder: "यहां अपना सवाल लिखें...",
+  exampleQuestions: "उदाहरण प्रश्न",
+  questionPlaceholder: "अपना प्रश्न यहाँ टाइप करें...",
   askAI: "AI से पूछें",
   aiThinking: "AI सोच रहा है...",
-  aiDisclaimer: "AI सामान्य मार्गदर्शन देता है। विशेष सलाह के लिए विशेषज्ञों से संपर्क करें।",
+  aiDisclaimer: "AI सामान्य मार्गदर्शन देता है। विशेष सलाह के लिए विशेषज्ञों से परामर्श करें।",
   
-  // Gamification - गेमिफिकेशन
+  // Gamification
   yourCoins: "आपके सिक्के",
   yourBadges: "आपके बैज",
   earnMore: "और कमाएं",
@@ -119,146 +119,146 @@ const STRINGS_HINDI = {
   leaderboard: "लीडरबोर्ड",
   level: "स्तर",
   
-  // Profile - प्रोफाइल
-  editProfile: "प्रोफाइल बदलें",
+  // Profile
+  editProfile: "प्रोफ़ाइल संपादित करें",
   changePassword: "पासवर्ड बदलें",
   language: "भाषा",
   darkMode: "डार्क मोड",
   notifications: "सूचनाएं",
   privacy: "गोपनीयता",
-  helpSupport: "मदद और सहायता",
+  helpSupport: "सहायता और समर्थन",
   
-  // Errors & Messages - त्रुटियां और संदेश
+  // Errors & Messages
   networkError: "नेटवर्क त्रुटि। कनेक्शन जांचें।",
-  serverError: "सर्वर त्रुटि। बाद में कोशिश करें।",
-  validationError: "कृपया सभी जरूरी जानकारी भरें।",
-  unauthorized: "आपको अनुमति नहीं है।",
-  notFound: "पेज नहीं मिला।",
+  serverError: "सर्वर त्रुटि। बाद में पुनः प्रयास करें।",
+  validationError: "कृपया सभी आवश्यक फ़ील्ड भरें।",
+  unauthorized: "आपके पास अनुमति नहीं है।",
+  notFound: "पृष्ठ नहीं मिला।",
   
-  // Footer - फुटर
+  // Footer
   aboutUs: "हमारे बारे में",
   contactUs: "संपर्क करें",
   termsConditions: "नियम और शर्तें",
   privacyPolicy: "गोपनीयता नीति",
   copyright: "© 2026 फिनलिट। ग्रामीण भारत को सशक्त बनाना।",
   
-  // Onboarding - ऑनबोर्डिंग
+  // Onboarding
   welcomeTitle: "फिनलिट में आपका स्वागत है!",
-  welcomeMessage: "पैसे का प्रबंधन सीखें, बचत बढ़ाएं, और बेहतर भविष्य बनाएं।",
+  welcomeMessage: "पैसे का प्रबंधन करना सीखें, बचत बढ़ाएं, और बेहतर भविष्य बनाएं।",
   getStarted: "शुरू करें",
   skipTutorial: "ट्यूटोरियल छोड़ें",
   
-  // Mentor - गुरु
-  contactMentor: "गुरु से संपर्क करें",
-  mentorProfile: "गुरु प्रोफाइल",
-  askMentor: "अपने गुरु से पूछें",
+  // Mentor
+  contactMentor: "मेंटर से संपर्क करें",
+  mentorProfile: "मेंटर प्रोफ़ाइल",
+  askMentor: "अपने मेंटर से पूछें",
   
-  // Activity - गतिविधि
+  // Activity
   today: "आज",
   thisWeek: "इस सप्ताह",
   thisMonth: "इस महीने",
   all: "सभी",
   
-  // Financial Confidence Score - वित्तीय आत्मविश्वास स्कोर
+  // Financial Confidence Score
   confidenceScore: "आत्मविश्वास स्कोर",
   yourConfidence: "आपका वित्तीय आत्मविश्वास",
   scoreUpdated: "स्कोर अपडेट हुआ!",
-  lowConfidence: "सीखने की शुरुआत",
-  mediumConfidence: "बढ़ते हुए सीखने वाले",
+  lowConfidence: "शुरुआती सीखने वाला",
+  mediumConfidence: "बढ़ता हुआ सीखने वाला",
   highConfidence: "आत्मविश्वासी उपयोगकर्ता",
   expertConfidence: "वित्त विशेषज्ञ",
-  improveScore: "स्कोर बढ़ाएं",
+  improveScore: "स्कोर सुधारें",
   scoreBreakdown: "स्कोर विवरण",
   lessonsScore: "पाठों की प्रगति",
   schemesScore: "योजना जागरूकता",
   practiceScore: "बैंकिंग अभ्यास",
-  engagementScore: "प्लेटफॉर्म सहभागिता",
+  engagementScore: "प्लेटफ़ॉर्म जुड़ाव",
   
-  // Daily AI Nudges - दैनिक AI सुझाव
+  // Daily AI Nudges
   whatToDo: "आज मुझे क्या करना चाहिए?",
-  todayActions: "आज के काम",
+  todayActions: "आज की क्रियाएं",
   dailyTips: "दैनिक सुझाव",
-  recommendedForYou: "आपके लिए सुझाव",
-  nudgeCheckScheme: "यह सरकारी योजना देखें",
+  recommendedForYou: "आपके लिए अनुशंसित",
+  nudgeCheckScheme: "इस सरकारी योजना को देखें",
   nudgePracticeBank: "बैंक वार्तालाप का अभ्यास करें",
-  nudgeDailySaving: "आज की बचत युक्ति सीखें",
+  nudgeDailySaving: "आज का बचत टिप सीखें",
   nudgeCompleteLesson: "अपना अगला पाठ पूरा करें",
-  nudgeViewProfile: "अपनी प्रोफाइल अपडेट करें",
+  nudgeViewProfile: "अपनी प्रोफ़ाइल अपडेट करें",
   takeAction: "कार्रवाई करें",
   done: "हो गया",
   skipToday: "आज के लिए छोड़ें",
   
-  // Eligibility Engine - पात्रता इंजन
+  // Eligibility Engine
   eligibleForYou: "आप पात्र हैं!",
   notEligible: "अभी पात्र नहीं",
   checkEligibility: "पात्रता जांचें",
-  whyEligible: "यह आपके लिए क्यों",
-  eligibilityReason: "आपकी प्रोफाइल के आधार पर",
-  ageMatch: "उम्र की शर्त पूरी",
+  whyEligible: "यह आपके लिए क्यों उपयुक्त है",
+  eligibilityReason: "आपकी प्रोफ़ाइल के आधार पर",
+  ageMatch: "आयु आवश्यकता पूरी",
   locationMatch: "आपके क्षेत्र में उपलब्ध",
-  occupationMatch: "आपके पेशे के लिए उपयुक्त",
-  incomeMatch: "आपकी आय सीमा से मेल",
+  occupationMatch: "आपके व्यवसाय के लिए उपयुक्त",
+  incomeMatch: "आपकी आय सीमा से मेल खाता है",
   showOnlyEligible: "केवल पात्र दिखाएं",
   eligibilityChecked: "पात्रता जांची गई",
   
-  // Bank Conversation Scripts - बैंक वार्तालाप स्क्रिप्ट
-  bankScripts: "बैंक वार्तालाप मदद",
+  // Bank Conversation Scripts
+  bankScripts: "बैंक वार्तालाप सहायता",
   practiceMode: "अभ्यास मोड",
   readMode: "स्क्रिप्ट पढ़ें",
   conversationTopics: "वार्तालाप विषय",
   openAccount: "खाता खोलना",
   askLoan: "ऋण के बारे में पूछना",
   govtSubsidy: "सरकारी सब्सिडी",
-  checkBalance: "बैलेंस चेक करें",
+  checkBalance: "शेष राशि जांचें",
   withdrawMoney: "पैसे निकालें",
   startPractice: "अभ्यास शुरू करें",
   readScript: "स्क्रिप्ट पढ़ें",
   scriptTitle: "वार्तालाप स्क्रिप्ट",
   yourDialog: "आप कहें:",
-  bankReply: "बैंक कर्मचारी जवाब:",
-  practiceComplete: "अभ्यास पूरा!",
-  tryAgain: "फिर से कोशिश करें",
+  bankReply: "बैंक कर्मचारी जवाब देता है:",
+  practiceComplete: "अभ्यास पूरा हुआ!",
+  tryAgain: "फिर कोशिश करें",
   nextScript: "अगली स्क्रिप्ट",
   
-  // Missed Call System - मिस्ड कॉल सिस्टम
+  // Missed Call System
   missedCall: "मिस्ड कॉल",
   callbackSystem: "कॉलबैक सिस्टम",
-  registerMissedCall: "कॉलबैक के लिए रजिस्टर करें",
+  registerMissedCall: "कॉलबैक के लिए पंजीकरण करें",
   yourNumber: "आपका मोबाइल नंबर",
-  callbackRequested: "कॉलबैक मांगा गया",
+  callbackRequested: "कॉलबैक का अनुरोध किया गया",
   callbackPending: "लंबित",
-  callbackCompleted: "पूर्ण",
+  callbackCompleted: "पूरा हुआ",
   missedCallLogs: "मिस्ड कॉल लॉग",
   viewLogs: "लॉग देखें",
   callbackStatus: "कॉलबैक स्थिति",
-  requestCallback: "कॉलबैक मांगें",
+  requestCallback: "कॉलबैक का अनुरोध करें",
   
-  // Admin Analytics - एडमिन विश्लेषण
+  // Admin Analytics
   villageAnalytics: "गांव-वार विश्लेषण",
-  confidenceTrends: "आत्मविश्वास ट्रेंड",
-  engagementStats: "सहभागिता आंकड़े",
+  confidenceTrends: "आत्मविश्वास रुझान",
+  engagementStats: "जुड़ाव आंकड़े",
   averageConfidence: "औसत आत्मविश्वास",
   topPerformers: "शीर्ष प्रदर्शनकर्ता",
-  needsAttention: "ध्यान चाहिए",
-  assignedVillages: "मेरे सौंपे गए गांव",
+  needsAttention: "ध्यान की आवश्यकता",
+  assignedVillages: "मेरे असाइन किए गए गांव",
   villageUsers: "गांव के उपयोगकर्ता",
   userProgress: "उपयोगकर्ता प्रगति",
-  lastActive: "आखिरी बार सक्रिय",
+  lastActive: "अंतिम सक्रिय",
   callbackRequests: "कॉलबैक अनुरोध",
   schemeManagement: "योजना प्रबंधन",
   addScheme: "योजना जोड़ें",
-  editScheme: "योजना बदलें",
+  editScheme: "योजना संपादित करें",
   activateScheme: "सक्रिय करें",
   deactivateScheme: "निष्क्रिय करें",
   schemeRules: "पात्रता नियम",
-  ageRange: "उम्र सीमा",
-  occupation: "पेशा",
+  ageRange: "आयु सीमा",
+  occupation: "व्यवसाय",
   incomeRange: "आय सीमा",
   location: "स्थान",
   
-  // User Profile Fields - उपयोगकर्ता प्रोफाइल फील्ड
-  age: "उम्र",
-  occupation: "पेशा",
+  // User Profile Fields
+  age: "आयु",
+  occupation: "व्यवसाय",
   monthlyIncome: "मासिक आय",
   farmer: "किसान",
   laborer: "दिहाड़ी मजदूर",
@@ -271,42 +271,41 @@ const STRINGS_HINDI = {
   range10to20k: "₹10,000 - ₹20,000",
   above20k: "₹20,000 से अधिक",
   
-  // AI Chat Phrases - AI चैट वाक्यांश
+  // AI Chat Phrases
   hello: "नमस्ते",
   thanks: "धन्यवाद",
   help: "क्या आप मेरी मदद कर सकते हैं?",
-  understand: "मैं समझ गया",
+  understand: "मैं समझता हूँ",
   doNotUnderstand: "मैं नहीं समझा",
   repeat: "कृपया दोहराएं",
   slower: "कृपया धीरे बोलें",
   
-  // Expense Tracker - खर्च ट्रैकर
+  // Expense Tracker
   expenseTracker: "खर्च ट्रैकर",
   addExpense: "खर्च जोड़ें",
   todayExpense: "आज का खर्च",
-  expenseAmount: "रकम",
+  expenseAmount: "राशि",
   expenseDescription: "विवरण",
   expenseCategory: "श्रेणी",
-  foodDrinks: "खाना-पानी",
-  transport: "यात्रा",
+  foodDrinks: "खाना और पेय",
+  transport: "परिवहन",
   shopping: "खरीदारी",
   bills: "बिल",
-  healthcare: "स्वास्थ्य",
+  healthcare: "स्वास्थ्य देखभाल",
   entertainment: "मनोरंजन",
   education: "शिक्षा",
   others: "अन्य",
   totalExpense: "कुल खर्च",
-  thisMonth: "इस महीने",
   expenseAdded: "खर्च जोड़ा गया",
   expenseAnalytics: "खर्च विश्लेषण",
   aiSuggestion: "AI सुझाव",
   avoidThis: "इससे बचें",
   goodSpending: "अच्छा खर्च",
-  trackDaily: "रोज़ाना ट्रैक करें",
-  saveReceipt: "रसीद रखें",
+  trackDaily: "रोज़ ट्रैक करें",
+  saveReceipt: "रसीद सहेजें",
   writeExpense: "आज का खर्च लिखें",
   askReceipt: "दुकानदार से रसीद मांगें",
-  saveToday: "आज बचाएं",
+  saveToday: "आज ₹20 बचाएं",
   expenseList: "खर्च सूची",
   noExpenses: "अभी तक कोई खर्च नहीं",
   deleteExpense: "खर्च हटाएं",
@@ -327,7 +326,29 @@ const STRINGS_HINDI = {
   aadhaarCard: "आधार कार्ड",
   panCard: "पैन कार्ड",
   bankPassbook: "बैंक पासबुक",
-  schemeDetails: "योजना विवरण",
+  
+  // Money Manager
+  moneyManager: {
+    title: "मनी मैनेजर",
+    subtitle: "अपने पैसे का स्मार्ट बजट बनाएं",
+    enterAmount: "उपलब्ध राशि दर्ज करें",
+    amountPlaceholder: "5000",
+    analyzeButton: "मेरे पैसे का विश्लेषण करें",
+    analyzing: "विश्लेषण हो रहा है...",
+    enterValidAmount: "कृपया वैध राशि दर्ज करें",
+    analysisError: "विश्लेषण विफल रहा। कृपया पुनः प्रयास करें।",
+    voiceInput: "आवाज इनपुट",
+    totalAmount: "कुल राशि",
+    savingsTarget: "बचत लक्ष्य",
+    investmentTarget: "निवेश",
+    budgetBreakdown: "बजट विवरण",
+    categoryWise: "श्रेणीवार आवंटन",
+    detailedBreakdown: "विस्तृत विवरण",
+    aiInsights: "AI सुझाव",
+    priorityTips: "प्राथमिकता टिप्स",
+    viewHistory: "पिछले विश्लेषण देखें",
+    reuse: "फिर से उपयोग करें",
+  },
 };
 
 export default STRINGS_HINDI;

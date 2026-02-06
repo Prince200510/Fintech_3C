@@ -258,7 +258,6 @@ const STRINGS_ENGLISH = {
   
   // User Profile Fields
   age: "Age",
-  occupation: "Occupation",
   monthlyIncome: "Monthly Income",
   farmer: "Farmer",
   laborer: "Daily Wage Worker",
@@ -296,7 +295,6 @@ const STRINGS_ENGLISH = {
   education: "Education",
   others: "Others",
   totalExpense: "Total Expense",
-  thisMonth: "This Month",
   expenseAdded: "Expense Added",
   expenseAnalytics: "Expense Analytics",
   aiSuggestion: "AI Suggestion",
@@ -327,7 +325,29 @@ const STRINGS_ENGLISH = {
   aadhaarCard: "Aadhaar Card",
   panCard: "PAN Card",
   bankPassbook: "Bank Passbook",
-  schemeDetails: "Scheme Details",
+  
+  // Money Manager
+  moneyManager: {
+    title: "Money Manager",
+    subtitle: "Smart budgeting for your money",
+    enterAmount: "Enter Available Amount",
+    amountPlaceholder: "5000",
+    analyzeButton: "Analyze My Money",
+    analyzing: "Analyzing...",
+    enterValidAmount: "Please enter a valid amount",
+    analysisError: "Failed to analyze. Please try again.",
+    voiceInput: "Voice Input",
+    totalAmount: "Total Amount",
+    savingsTarget: "Savings Target",
+    investmentTarget: "Investment",
+    budgetBreakdown: "Budget Breakdown",
+    categoryWise: "Category-wise Allocation",
+    detailedBreakdown: "Detailed Breakdown",
+    aiInsights: "AI Insights",
+    priorityTips: "Priority Tips",
+    viewHistory: "View Previous Analyses",
+    reuse: "Use Again",
+  },
 };
 
 export default STRINGS_ENGLISH;
