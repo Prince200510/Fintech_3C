@@ -84,7 +84,7 @@ API Documentation: `http://localhost:8000/docs` (development)
 ### Frontend (.env)
 ```
 VITE_API_BASE_URL=https://fintech-3c-b.onrender.com
-VITE_GOOGLE_MAPS_API_KEY=AIzaSyAO0HujaxWeMdB0SNv9knyj044NTliWufc
+VITE_GOOGLE_MAPS_API_KEY=""
 ```
 
 ### Backend (.env)
